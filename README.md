@@ -1,3 +1,7 @@
+![Veryfi Logo](https://cdn.veryfi.com/logos/veryfi-logo-wide-github.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 # Veryfi Lens
 Veryfi Lens is code (a framework) with UI for your mobile app to give it document capture superpowers in minutes.
 
@@ -16,8 +20,8 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 4. [Get in contact with our team](#contact)
 
 ## Veryfi Lens Checks Android Example <a name="example"></a>
-You can find the demo project in this repository. You can also check the development documentation.
-- [Lens for Checks]()
+![checks](https://user-images.githubusercontent.com/46335146/163085517-cf03bb5d-1d9e-464c-be0e-27f3ad2be617.gif)
+
 ## Other Lens Android Examples <a name="examples"></a>
 This is an example of how to use Veryfi Lens Checks in your app, you can find the developer documentation [here](AndroidLensChecks.pdf).
 You can find five example projects, which are the five versions of Lens that we currently offer:
