@@ -28,6 +28,9 @@ class Application: Application() {
         val veryfiLensSettings = VeryfiLensSettings()
         veryfiLensSettings.documentTypes = arrayListOf("check")
         veryfiLensSettings.showDocumentTypes = true
+        veryfiLensSettings.checksBackIsOn = true
+        veryfiLensSettings.stitchIsOn = true
+        veryfiLensSettings.moreMenuIsOn = false
 
         //configure lens
         VeryfiLens.configure(this, veryfiLensCredentials, veryfiLensSettings)
