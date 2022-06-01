@@ -30,6 +30,7 @@ class Application: Application() {
         veryfiLensSettings.showDocumentTypes = true
         veryfiLensSettings.checksBackIsOn = true
         veryfiLensSettings.stitchIsOn = true
+        veryfiLensSettings.returnStitchedPDF = true
         veryfiLensSettings.moreMenuIsOn = false
 
         //configure lens
