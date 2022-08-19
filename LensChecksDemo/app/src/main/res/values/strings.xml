@@ -65,4 +65,5 @@
     <string name="logs_error" translatable="false">Error</string>
     <string name="logs_failed" translatable="false">Failed</string>
     <string name="settings_check_back">Checks back</string>
+    <string name="settings_gpu">GPU</string>
 </resources>
