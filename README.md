@@ -20,7 +20,7 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 4. [Get in contact with our team](#contact)
 
 ## Veryfi Lens Checks Android Example <a name="example"></a>
-![checks](https://user-images.githubusercontent.com/46335146/163085517-cf03bb5d-1d9e-464c-be0e-27f3ad2be617.gif)
+![LensChequeDemo](https://user-images.githubusercontent.com/30125790/189679589-93daff07-b4ec-4581-b56c-46bfc2b7943d.gif)
 
 ## Other Lens Android Examples <a name="examples"></a>
 This is an example of how to use Veryfi Lens Checks in your app, you can find the developer documentation [here](AndroidLensChecks.pdf).
