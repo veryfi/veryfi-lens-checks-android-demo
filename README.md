@@ -28,7 +28,7 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 ## Veryfi Lens Checks Android Example <a name="example"></a>
 This is an example of how to use Veryfi Lens Checks in your app, you can find the developer documentation [here](https://app.veryfi.com/lens/docs/android/).
 
-![LensChequeDemo](https://user-images.githubusercontent.com/30125790/189679589-93daff07-b4ec-4581-b56c-46bfc2b7943d.gif)
+![LensChequeDemo](checks-demo.gif)
 
 ## How to add Veryfi Lens Checks to your project <a name="maven"></a>
 
@@ -38,7 +38,7 @@ package manager for Java.
 Add in your project build.gradle file the Veryfi Lens Checks Android SDK dependency:
 ```ruby
 dependencies {
-    implementation 'com.veryfi.lens:veryfi-lens-cheques-sdk:1.7.0.8'
+    implementation 'com.veryfi.lens:veryfi-lens-cheques-sdk:1.7.0.9'
 }
 ```
 
