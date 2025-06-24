@@ -33,6 +33,9 @@
     <string name="settings_backup_docs_gallery">Backup docs to gallery</string>
     <string name="settings_return_stitched_pdf">Return stitched PDF</string>
     <string name="settings_close_camera_submit">Close camera on submit</string>
+    <string name="settings_check_sequence_mode">Check sequence mode</string>
+    <string name="settings_force_landscape_image">Force landscape image</string>
+    <string name="settings_auto_select_manual_crop">Auto select manual crop</string>
     <string name="settings_location_services">Location services</string>
     <string name="settings_original_image_max_size">Original image max size in MB</string>
     <string name="settings_auto_delete_processing">Auto delete after processing</string>

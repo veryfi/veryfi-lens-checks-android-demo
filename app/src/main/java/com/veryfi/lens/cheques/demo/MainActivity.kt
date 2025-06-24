@@ -41,6 +41,9 @@ class MainActivity : AppCompatActivity() {
     private var backupDocsToGallery = veryfiLensSettings.backupDocsToGallery
     private var returnStitchedPDF = veryfiLensSettings.returnStitchedPDF
     private var closeCameraOnSubmit = veryfiLensSettings.closeCameraOnSubmit
+    private var checkSequenceMode = true
+    private var forceLandscapeImage = true
+    private var autoSelectManualCropIsOn = true
     private var locationServicesIsOn = veryfiLensSettings.locationServicesIsOn
     private var originalImageMaxSizeInMB = veryfiLensSettings.originalImageMaxSizeInMB
     private var autoRotateIsOn = veryfiLensSettings.autoRotateIsOn
@@ -114,6 +117,9 @@ class MainActivity : AppCompatActivity() {
         viewBinding.switchStitchedPdf.isChecked = returnStitchedPDF
         viewBinding.switchCheckBack.isChecked = checksBackIsOn
         viewBinding.switchCloseCameraSubmit.isChecked = closeCameraOnSubmit
+        viewBinding.switchCheckSequenceMode.isChecked = checkSequenceMode
+        viewBinding.switchForceLandscapeImage.isChecked = forceLandscapeImage
+        viewBinding.switchAutoSelectManualCrop.isChecked = autoSelectManualCropIsOn
         viewBinding.switchAutoRotate.isChecked = autoRotateIsOn
         viewBinding.switchBlur.isChecked = blurDetectionIsOn
         viewBinding.switchSkew.isChecked = autoSkewCorrectionIsOn
@@ -191,6 +197,18 @@ class MainActivity : AppCompatActivity() {
 
         viewBinding.switchCloseCameraSubmit.setOnCheckedChangeListener { _, isChecked ->
             closeCameraOnSubmit = isChecked
+        }
+
+        viewBinding.switchCheckSequenceMode.setOnCheckedChangeListener { _, isChecked ->
+            checkSequenceMode = isChecked
+        }
+
+        viewBinding.switchForceLandscapeImage.setOnCheckedChangeListener { _, isChecked ->
+            forceLandscapeImage = isChecked
+        }
+
+        viewBinding.switchAutoSelectManualCrop.setOnCheckedChangeListener { _, isChecked ->
+            autoSelectManualCropIsOn = isChecked
         }
 
         viewBinding.switchAutoRotate.setOnCheckedChangeListener { _, isChecked ->
@@ -467,6 +485,9 @@ class MainActivity : AppCompatActivity() {
         veryfiLensSettings.gpuIsOn = gpuIsOn
         veryfiLensSettings.documentTypes = arrayListOf(DocumentType.CHECK)
         veryfiLensSettings.showDocumentTypes = true
+        veryfiLensSettings.checkSequenceMode = checkSequenceMode
+        veryfiLensSettings.forceLandscapeImage = forceLandscapeImage
+        veryfiLensSettings.autoSelectManualCropIsOn = autoSelectManualCropIsOn
 
         val veryfiLensCredentials = VeryfiLensCredentials()
         veryfiLensCredentials.apiKey = AUTH_API_KEY
