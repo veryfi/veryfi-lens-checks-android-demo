@@ -485,9 +485,9 @@ class MainActivity : AppCompatActivity() {
         veryfiLensSettings.gpuIsOn = gpuIsOn
         veryfiLensSettings.documentTypes = arrayListOf(DocumentType.CHECK)
         veryfiLensSettings.showDocumentTypes = true
-        veryfiLensSettings.checkSequenceMode = true
-        veryfiLensSettings.forceLandscapeImage = true
-        veryfiLensSettings.autoSelectManualCropIsOn = true
+        veryfiLensSettings.checkSequenceMode = checkSequenceMode
+        veryfiLensSettings.forceLandscapeImage = forceLandscapeImage
+        veryfiLensSettings.autoSelectManualCropIsOn = autoSelectManualCropIsOn
 
         val veryfiLensCredentials = VeryfiLensCredentials()
         veryfiLensCredentials.apiKey = AUTH_API_KEY
